@@ -176,4 +176,4 @@ def get_House_fs(*, request: HouseFeatures):
                                garageCarCap, overallCond]])
     preds_final = round(preds[0], 2)
 
-    return {"Predictions": preds_final}
+    return {"Predicted House Price": preds_final}
